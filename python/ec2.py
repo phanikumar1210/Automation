@@ -1,4 +1,3 @@
-from sys import platform
 from file_handler import *
 
 ec2_client=boto3.client("ec2")
