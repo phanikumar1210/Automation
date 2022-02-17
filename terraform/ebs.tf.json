@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "aws_ebs_volume": {
+      "vol-0040757275f9b25b0": {
+        "availability_zone": "us-east-1d",
+        "iops": 100,
+        "kms_key_id": "arn:aws:kms:us-east-1:146967133598:key/f37463b7-7fae-4aa2-bbde-0edb538ca229",
+        "size": 8,
+        "tags": {
+          "Name": "demo"
+        },
+        "type": "gp2"
+      },
+      "vol-0a4f3457f94c3c275": {
+        "availability_zone": "us-east-1d",
+        "iops": 100,
+        "kms_key_id": "arn:aws:kms:us-east-1:146967133598:key/f37463b7-7fae-4aa2-bbde-0edb538ca229",
+        "size": 8,
+        "tags": {
+          "Name": "demo"
+        },
+        "type": "gp2"
+      },
+      "vol-0d5a379160eb34ab4": {
+        "availability_zone": "us-east-1d",
+        "iops": 100,
+        "kms_key_id": "arn:aws:kms:us-east-1:146967133598:key/f37463b7-7fae-4aa2-bbde-0edb538ca229",
+        "size": 8,
+        "tags": {
+          "Name": "demo"
+        },
+        "type": "gp2"
+      },
+      "vol-0dd36f3d99edc7844": {
+        "availability_zone": "us-east-1d",
+        "iops": 100,
+        "kms_key_id": "arn:aws:kms:us-east-1:146967133598:key/f37463b7-7fae-4aa2-bbde-0edb538ca229",
+        "size": 8,
+        "tags": {
+          "Name": "demo"
+        },
+        "type": "gp2"
+      }
+    }
+  }
+}

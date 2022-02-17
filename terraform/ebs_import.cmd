@@ -1,0 +1,5 @@
+terraform init
+terraform import aws_ebs_volume.vol-0a4f3457f94c3c275 vol-0a4f3457f94c3c275
+terraform import aws_ebs_volume.vol-0dd36f3d99edc7844 vol-0dd36f3d99edc7844
+terraform import aws_ebs_volume.vol-0040757275f9b25b0 vol-0040757275f9b25b0
+terraform import aws_ebs_volume.vol-0d5a379160eb34ab4 vol-0d5a379160eb34ab4

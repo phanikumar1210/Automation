@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "aws_instance": {
+      "i-00b17313172afe03f": {
+        "ami": "ami-033b95fb8079dc481",
+        "instance_type": "t2.micro",
+        "key_name": "demo",
+        "subnet_id": "subnet-099d297cdf4f025f5",
+        "tags": {
+          "Name": "demo"
+        },
+        "vpc_security_group_ids": [
+          "sg-091a5a7ce17ea2416"
+        ]
+      },
+      "i-066cf3bfd37e45c5d": {
+        "ami": "ami-033b95fb8079dc481",
+        "instance_type": "t2.micro",
+        "key_name": "demo",
+        "subnet_id": "subnet-099d297cdf4f025f5",
+        "tags": {
+          "Name": "demo"
+        },
+        "vpc_security_group_ids": [
+          "sg-091a5a7ce17ea2416"
+        ]
+      },
+      "i-0759b158150c8734c": {
+        "ami": "ami-033b95fb8079dc481",
+        "instance_type": "t2.micro",
+        "key_name": "demo",
+        "subnet_id": "subnet-099d297cdf4f025f5",
+        "tags": {
+          "Name": "demo"
+        },
+        "vpc_security_group_ids": [
+          "sg-091a5a7ce17ea2416"
+        ]
+      },
+      "i-0c5a1a32e79e339be": {
+        "ami": "ami-033b95fb8079dc481",
+        "instance_type": "t2.micro",
+        "key_name": "demo",
+        "subnet_id": "subnet-099d297cdf4f025f5",
+        "tags": {
+          "Name": "demo"
+        },
+        "vpc_security_group_ids": [
+          "sg-091a5a7ce17ea2416"
+        ]
+      }
+    }
+  }
+}
