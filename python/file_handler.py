@@ -12,7 +12,8 @@ def get_file_data(file):
             file_object.close()
         os.rename(file, file+"_old")
         return data
-    except:
+    except Exception as e:
+        logging.error(e)
         logging.error("Exception occoured {} main".format(sys.exc_info()[1]))
         
 def put_file_data(file,updated_data):
@@ -21,5 +22,6 @@ def put_file_data(file,updated_data):
             json.dump(updated_data,file_object,indent=2, sort_keys=True)
             file_object.close()
         os.remove(file+"_old")
-    except:
+    except Exception as e:
+        logging.error(e)
         logging.error("Exception occoured {} main".format(sys.exc_info()[1]))
