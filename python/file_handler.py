@@ -13,6 +13,7 @@ def get_file_data(file):
         os.rename(file, file+"_old")
         return data
     except Exception as e:
+        logging.error(e)
         logging.error("Exception occoured {} main".format(sys.exc_info()[1]))
         
 def put_file_data(file,updated_data):
@@ -22,4 +23,5 @@ def put_file_data(file,updated_data):
             file_object.close()
         os.remove(file+"_old")
     except Exception as e:
+        logging.error(e)
         logging.error("Exception occoured {} main".format(sys.exc_info()[1]))
